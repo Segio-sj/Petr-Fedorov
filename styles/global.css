@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:root {
+    --primary-background-color: #1B2944; /* Светло-синиий */
+    --button-text-color: #1B2944; /* Светло-синиий */
+    --secondary-background-color: #141F35; /* Темно-синиий */
+    --bright-pink: #EC1F46; /* Ярко-розовый */
+    --honey-yellow: #FFBB01; /* Желтый-янтарный */
+    --grey: #cecece;
+    --bright-grey: #f8f8f8;
+    --black: #000000;
+    --white: #fff;
+}
+
+body {
+	width: 1280px;
+	margin: 0 auto;
+    /* padding: 40px 168px 88px 168px; */
+	font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    background-color: var(--primary-background-color);
+    color: var(--white);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+}
+
+img {
+	width: 100%;
+}
+
+button {
+	font: inherit;
+}
