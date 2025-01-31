@@ -1,1 +1,1 @@
-git@github.com:Segio-sj/Petr-Fedorov.git
+https://github.com/Segio-sj/Petr-Fedorov
