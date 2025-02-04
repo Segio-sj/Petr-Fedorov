@@ -1,3 +1,5 @@
+/* header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -5,17 +7,18 @@
     padding: 40px 168px 0 168px;
 }
 
-.header-logo {
+.header__logo {
     display: block;
 }
 
-.header-socials-icons-list {
+.header__icons-list {
     display: flex;
     justify-content: end;
     gap: 16px;
     list-style: none;
 }
-.socials-icons-img {
+
+.header__icons-img {
     display: block;
     width: 20px;
     height: 20px;
@@ -29,21 +32,25 @@
     align-items: center;
     min-height: 384px;
 }
-.about-group {
+
+.about__group {
     max-width: 464px;
 }
-.about-subtitle {
+
+.about__group-subtitle {
     font-size: 24px;
     line-height: 28px;
     color: var(--honey-yellow);
 }
-.about-title {
+
+.about__group-title {
     font-size: 50px;
     font-weight: 700;
     margin: 12px 0 24px 0;
     line-height: 59px;
 }
-.about-button {
+
+.about__group-button {
     width: 300px;
     height: 66px;
     margin-top: 36px;
@@ -69,7 +76,7 @@
     background-color: var(--secondary-background-color);
 }
 
-.features-list {
+.features__list {
     max-width: 944px;
     display: flex;
     flex-wrap: wrap;
@@ -77,31 +84,28 @@
     list-style: none;
     margin-top: 48px;
 }
-.main {
-    width: 100%;
-}
 
-.features-list-item {
+.features__list-item {
     max-width: 304px;
     width: 100%;
 }
 
-.features-list-img {
+.features__list-img {
     height: 52px;
     width: 52px;
 }
-.features-list-title {
-    font-weight: 700;
-    font-size: 24px;
+
+.features__list-title {
     margin: 12px 0 16px 0;
 }
 
 /* portfolio section */
 
-.portfolio-title {
+.portfolio__title {
     margin-bottom: 48px;
 }
-.portfolio-list {
+
+.portfolio__list {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -115,22 +119,22 @@
     background-size: cover;
     background-position: center;
 }
+
 .golf_club {
     background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%),
     url(../images/portfolio2.png);
     background-size: cover;
     background-position: center;
 }
+
 .hiking_trip {
     background-image: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #213E60 99.85%),
     url(../images/portfolio3.png);
     background-size: cover;
     background-position: center;
-
-
 }
 
-.portfolio-item {
+.portfolio__item {
     padding: 0 0 32px 32px;
     display: flex;
     flex-direction: column;
@@ -140,12 +144,11 @@
     border-radius: 6px;
 }
 
-.portfolio-item-title {
-    font-size: 18px;
-    font-weight: 700;
+.portfolio__item-title {
     margin-bottom: 16px;
 }
-.portfolio-item-button {
+
+.portfolio__item-button {
     width: 120px;
     height: 36px;
     cursor: pointer;
@@ -156,7 +159,6 @@
     font-size: 12px;
     font-weight: 700;
     text-align: center;
-
 }
 
 /* gallery section */
@@ -165,7 +167,7 @@
     background-color: var(--secondary-background-color);
 
 }
-.gallery-list {
+.gallery__list {
     display: grid;
     grid-template-columns: repeat(4, 224px);
     grid-template-rows: repeat(3, 224px);
@@ -177,12 +179,14 @@
     background-size: cover;
 	background-position: center;
 }
+
 .gallery-video {
     display: flex;
     justify-content: end;
     background-size: cover;
 	background-position: center;
 }
+
 .gallery-video-time {
     font-size: 12px;
     line-height: 16px;
@@ -191,6 +195,7 @@
     margin-top: 8px;
     margin-right: 4px;
 }
+
 .gallery-icon {
     height: 16px;
     width: 16px;
@@ -249,19 +254,16 @@
 
 /* contact section*/
 
-.contact-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+.contact__title {
     margin-bottom: 47px;
 }
 
-.contact-container {
+.contact__container {
     display: flex;
     justify-content: space-between;
 }
 
-.contact-form {
+.contact__form {
     display: flex;
     flex-direction: column;
     background-color: var(--white);
@@ -270,16 +272,19 @@
     min-width: 464px;
     border-radius: 5px;
 }
-.contact-form-descriprtion {
+
+.contact__form-descriprtion {
     text-align: center;
     font-weight: 700;
     color: var(--black);
     margin-bottom: 32px;
     letter-spacing: 1px;
 }
+
 .input-icon-img {
     margin-top: 12px;
 }
+
 .input-block {
     display: flex;
     align-items: center;
@@ -297,7 +302,7 @@
     border: none;
 
 }
-.contact-button {
+.contact__form-button {
     height: 66px;
     background-color: var(--honey-yellow);
     margin-top: 16px;
@@ -312,13 +317,14 @@
     box-shadow: 0px 4px 0px 0px #B68500;
 }
 
-.contact_info {
+.contact__info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     min-height: 422px;
 }
-.contact_info-list {
+
+.contact__info-list {
     display: flex;
     list-style: none;
     flex-wrap: wrap;
@@ -326,15 +332,14 @@
     column-gap: 116px;
     row-gap: 32px;
 }
-.contact-socials {
-    height: 72px;
-}
-.footer-socials-icons-list {
+
+.footer__icons-list {
     display: flex;
     gap: 16px;
     list-style: none;
 }
-.contact-info-title {
+
+.contact__info-title {
     font-weight: 700;
     font-size: 24px;
     margin-bottom: 16px;
