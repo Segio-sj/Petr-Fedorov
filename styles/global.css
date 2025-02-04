@@ -34,6 +34,10 @@ h2 {
     line-height: 42px;
 }
 
+section {
+    padding: 88px 168px 88px 168px;
+}
+
 h1,
 h2,
 h3,
