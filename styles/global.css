@@ -45,7 +45,9 @@ h4 {
     line-height: 28px;
 }
 
-section {
+
+section,
+footer {
     padding: 88px 168px 88px 168px;
 }
 
